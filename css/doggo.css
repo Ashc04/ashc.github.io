@@ -1,0 +1,71 @@
+#idss{
+    margin-right:5%;
+}
+li{
+    display: inline;
+}
+#navbar{
+    text-align:left;
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    width:100%;
+    background-size: 75%;
+    background-color:black;
+
+    color:white;
+    border:5px solid white;
+    border-radius: 5%;
+    margin-bottom:20%;
+   
+}
+
+body{
+    background-color:rgb(66, 127, 147);
+    color:white;
+    text-align: center;
+}
+#titl{
+    margin-top:4%;
+    border:1px solid black;
+    border-radius: 15%;
+    font-family:'Macondo', cursive;
+   
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:grey;
+}
+#chap1{
+    margin-top: 2%;
+    background-image: url(img/tonto.png);
+    text-align:left;
+    font-size: 15px;
+}
+#chap2{
+    margin-top: 2%;
+    
+    text-align:left;
+    font-size: 15px;
+}
+#chap3{ 
+    margin-top: 2%;
+    
+    text-align:left;
+    font-size: 15px;
+}
+#ims{
+    float:left;
+    size:120px;
+    
+}
+#left{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}

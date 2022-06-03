@@ -6,14 +6,22 @@ body{
   color:white;
 }
 /*so cool, a slanted nav bar */
-#navbar{ 
-  margin-left:-2%;
+
+
+#links {
+  position: fixed;
+  top: 10px;
+  list-style: none;
+  padding-inline-start: 0;
+  margin: 10px;
+}
+#navbar {
   content: '';
   position: fixed;
   width: 0;
   height: 0;
   top: 0;
-  border-top: 2000px solid #105c9b;
+  border-top: 2000px solid #c15610;
   border-right: 300px solid transparent;
   color: white;
 }
@@ -28,10 +36,9 @@ a{
   color:white;
   text-decoration: none;
 }
-a:hover{
+a :hover{
   background-color: rgb(205, 232, 208);
-  color:white;
-  
+  color:rgb(6, 6, 6); 
   margin-top:60%;
 }
 footer{
@@ -47,4 +54,8 @@ iframe {
   padding: 10px;
   border: 3px solid black;
   border-radius: 15%;
+}
+
+html {
+  scroll-behavior: smooth;
 }

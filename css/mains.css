@@ -16,6 +16,7 @@ body{
   margin: 10px;
 }
 #navbar {
+  margin-left: -10px;
   content: '';
   position: fixed;
   width: 0;
